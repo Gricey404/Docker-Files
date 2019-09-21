@@ -36,7 +36,7 @@ services:
      - PMA_ARBITRARY=1
     restart: always
     ports:
-     - 8081:80
+     - 3360:3360
     volumes:
      - /sessions
 volumes:
